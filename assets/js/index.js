@@ -13,3 +13,5 @@ if (day == 3) {
 } else {
   video.remove();
 }
+
+video.addEventListener('click',function(){ video.play(); },false);
