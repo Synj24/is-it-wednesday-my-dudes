@@ -8,9 +8,10 @@ html
     meta(name='viewport' content='width=device-width, initial-scale=1')
 
     block(name='title')
-      title Title of Your Site
+      title Is it wednesday my dudes?
 
     link(rel='stylesheet' href='css/index.css')
+    link(rel='shortcut icon' href="favicon.ico" type="image/x-icon")
 
   body
     main(role='main' id='{{ pageId }}')

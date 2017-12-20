@@ -1,3 +1,6 @@
 extends(src='layout.sgr')
   block(name='content')
-    h2#wednesday
+    video#jimmy(autoplay)
+      source(src="it-is-wednesday-my-dudes.mp4" type="video/mp4")
+    h1#not-wednesday It is not wednesday my dudes
+    img#frog(src="img/frog.png")
